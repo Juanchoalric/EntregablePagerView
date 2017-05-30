@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.juancho.entregableviewpager.DetalleRecetaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/detalle_imagen_receta"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        />
+
+    <TextView
+        android:id="@+id/titulo_receta_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="titulo de la receta"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/descripcion_receta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="descripcion de la receta"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+</LinearLayout>
